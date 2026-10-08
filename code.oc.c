@@ -12,7 +12,7 @@ int main()
         bill = units *4.00;
     else
         bill = units *6.00;
-        printf("Electricity bill =RS%.2f\n", bill);
+        printf("Electricity bill =RS% .2f\n", bill);
 
 
          return 0;
